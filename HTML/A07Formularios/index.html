@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="formulario.png" type="image/x-icon">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Testando Input</h1>
+    <p>Formulario simples</p>
+    <form>
+        <p>
+            <label for="nome1">Nome:</label>
+            <input type="text" name="nome" id="nome1">
+            <!--Todo input necessita de "label", contudo. Input e a base de todo formulario.-->
+        </p>
+        <p>
+            <label for="Sobrenome1">Sobrenome:</label>
+            <input type="text" name="nobrenome" id="sobrenome1">
+        </p>
+        <p>
+            <label for="email1">Email:</label>
+            <input type="email" name="email" id="email1">
+        </p>
+        <p>
+            <label for="senha1">Senha:</label>
+            <input type="password" name="senha" id="senha1">
+        </p>
+        <p>
+            Cor Favorita <br>
+            <label for="CorVermelho">Vermelho</label>   
+            <input type="radio" name="CorFavorita" id="corVermelho"> <br>
+            <label for="corAzul">Azul</label>
+            <input type="radio" name="CorFavorita" id="corAzul"> <br>
+            <label for="CorAmarelo">Amarelo</label>
+            <input type="radio" name="CorFavorita" id="corAmarelo"> <br>
+            <label for="CorVerde">Verde</label>
+            <input type="radio" name="CorFavorita" id="corVerde"> <br> 
+            <!--Radio e uma "checkBox", porem circulo-->
+            <!--HINT: segurar ALT para selecionar mais de um item e edita todos-->
+        </p>
+        <p>
+            Matérias Favoritas: <br>
+            <label for="Português1">Português</label>
+            <input type="checkbox" name="MateriaFav" id="Português1"> <br>
+            <label for="Matematica1">Matematica</label>
+            <input type="checkbox" name="MateriaFav" id="Matematica1"> <br>
+            <label for="Fisica1">Fisica</label>
+            <input type="checkbox" name="MateriaFav" id="Fisica1"> <br>
+            <label for="Biologia1">Biologia</label>
+            <input type="checkbox" name="MateriaFav" id="Biologia1"> <br>
+            <label for="Quimica1">quimica</label>
+            <input type="checkbox" name="MateriaFav" id="Quimica1"> <br>
+            <label for="Historia1">Historia</label>
+            <input type="checkbox" name="MateriaFav" id="Historia1"> <br>
+        </p>
+        <p> 
+            Curso:
+            <select name="" id="">
+                <option value="Selecione">Selecione...</option>
+                <option value="">Suporte em TI</option>
+                <option value="">Desenvolvimento web</option>
+                <option value="">Gestão Empresarial</option>
+            </select>
+            <!--Cria uma area de Seleção, ex.:Pais.-->
+        </p>
+        <p>
+            <label for="mensagem1">Mensagem:</label> <br>
+            <textarea name="" id="mensagem1" cols="60" rows="10"></textarea>
+        </p>
+        <input type="submit" value="Login"> <!--Isso envia todas as informaçoes do formulario-->
+        <input type="reset" value="Limpar"> <!--Limpar tudo, caso esteja no paragrafp, limpa so o conteudo.-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/png">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Construindo uma tabela</h1>
+    <p>Tabela simples</p>
+        
+        <!--
+        Estrutura da tabela:
+
+            TABLE
+                thead
+                    tr, th, td
+                tbody
+                    tr, th, td
+                tfoot
+                    tr, th, td
+
+        Tags:
+        TABLE:Tabela
+        Thead:Cabeçalho
+        Tbody:Corpo
+        Tfoot:Rodapêe
+        
+        Tr = Linha tabela (Tipo <hr>)
+        Th = Titulo da tabela (Tipo <h1,2,3,...>)
+        Td = Dado da tabela (Tipo <p>)
+
+        Mesclar coluna = colspan
+        Mesclar linha = rowspan
+        -->
+        
+    <table border="5" width="50%">
+        <tr>
+            <th>NOME</th>
+            <th>SOBRENOME</th>
+            <th>GOSTO MUSICAL</th>
+        </tr>
+        <tr>
+            <td>Caio</td>
+            <td>Moreira</td>
+            <td>Gospel</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>Hallak</td>
+            <td>Aço</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>Apolinario</td>
+            <td>Ecletico</td>
+        </tr>
+    </table>
+
+    <p>Tabela estruturada</p>
+
+    <table border="3" width="20%">
+        <caption>Salario do shely</caption>     
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$: 720</td>
+            </tr>
+            <tr>
+                <td>Fereiro</td>
+                <td>R$: 720</td>
+            </tr>
+            <tr>
+                <td>Março</td>
+                <td>R$: 720</td>
+            </tr>
+            <tr>
+                <td>Abril</td>
+                <td>R$: 720</td>
+            </tr>
+            <tr>
+                <td>Maio</td>
+                <td>R$: 720</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">SALDO FINAL: R$:3600</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table border="1" width="20%">
+        <caption>Boletim</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Html</th>
+                <th>Css</th>
+                <th>Java</th>
+            </tr>
+            <tr>
+                <th>Caio Moreira</th>
+                <th>7</th>
+                <th>8</th>
+                <th>10</th>
+            </tr>
+            <tr>
+                <th>Ana Luiza</th>
+                <th>7</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            <tr>
+                <th>Enzo Fonteles</th>
+                <th>9</th>
+                <th>9</th>
+                <th>10</th>
+            </tr>
+            <tr>
+                <th>Laura Martins</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            <tr>
+                <th>Gui Falcão</th>
+                <th>10</th>
+                <th>10</th>
+                <th>9</th>
+            </tr>
+        </thead>
+
+
+
+
+    </table>
+
+
+
+
+
+</body>
+</html>
